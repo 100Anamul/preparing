@@ -1,0 +1,147 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    color:white;
+    
+    
+  
+
+}
+header{
+    background-color: blue;
+}
+.top-menu{
+    background-color: tomato;
+    
+    
+}
+.header-left{
+    width: 20%;
+    float: left;
+    background-color: tomato;
+    box-sizing: border-box;
+    
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 60px;
+}
+.header-right{
+    width:80%;
+    float:left;
+    font-size: 34px;
+  background-color:tomato;
+  box-sizing: border-box;
+  
+}
+ul li{
+    display: inline-block;
+    padding-top: 30px;
+}
+li{
+    padding-left: 126px;
+    padding-bottom: 36px;
+}
+li a{ color: white;
+    text-decoration: none;
+}
+li a:hover{
+    color: black;
+}
+.clear{
+    clear: both;
+}
+p{
+    color: black;
+    font-size: 20px;
+}
+.btn{
+    float: right;
+}
+.slider{
+
+    background-image: url("slider.jpg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    padding: 400px 0px;
+  
+    background-size:cover;
+    
+    
+}
+.info{
+
+    width: 50%;
+    float: left;
+}
+.info2{
+    margin-bottom: 200px;
+    margin-left: 150px;
+    color: black;
+    font-weight: 700;
+    background-color: white;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 5%;
+}
+.youtube-section{
+    width:50%;
+    float:left;
+    
+}
+.youtube-con{
+    margin-left: 300px;
+    border: 1px solid white;
+    box-shadow: 2px;
+   
+}
+.maindiv{
+
+    width:800px;
+    height: 500px;
+    border: 1px solid rgb(231, 220, 17);
+    margin: auto;
+    
+}
+img{
+    height:100%;
+    width:100%;
+}
+.hoverdiv {
+    position: relative;
+   
+}
+.hoverinner{
+    position: absolute;
+    top:0px;
+    text-align: center;
+    width: 0%;
+    height: 0%;
+    background: rgba(53, 227, 9, 0.5);
+    visibility: hidden;
+    transition: 0.5s;
+    transition-property: initial;
+    opacity: 0;
+}
+
+.hoverinner h2 {
+    color: white;
+    margin-top: 335px;
+    font-size: 39px;
+}
+.hoverdiv:hover .hoverinner{
+    height: 100%;
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+.t{
+    display: inline-block;
+}
